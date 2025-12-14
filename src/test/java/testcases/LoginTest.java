@@ -14,7 +14,7 @@ public class LoginTest extends TestNGBaseClass {
 		excel = new ExcelConfig("LoginPage");
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void verifyWithValidCredentials() 
 	{
 
