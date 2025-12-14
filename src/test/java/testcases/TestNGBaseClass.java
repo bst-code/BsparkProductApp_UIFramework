@@ -44,7 +44,7 @@ public class TestNGBaseClass extends SeleniumGenerics{
 	@AfterMethod
 	public void afterMethod() 
 	{
-		closeBrowser(driver);
+		quitBrowser(driver);
 	}
 	
 	@BeforeSuite

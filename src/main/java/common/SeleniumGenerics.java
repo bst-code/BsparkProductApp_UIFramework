@@ -46,6 +46,13 @@ public class SeleniumGenerics {
 		PrintUtills.logMsg("Browser is Closed");
 
 	}
+	
+	public void quitBrowser(WebDriver driver) 
+	{
+		driver.quit();
+		PrintUtills.logMsg("Browser is quited");
+
+	}
 
 	public void refreshBrowser(WebDriver driver)
 	{
